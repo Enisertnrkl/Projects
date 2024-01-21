@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "J2eLfKDlKODfxb0+7cF+XYMaZcUcl8lLVbwk87eg0Z4cts0mkTy2JisG2LDa/WbrwFMK1UJWvicUVVNsZVYgcQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Spacy\\Documents\\vsstudio\\stockmanagement\\stockmanagement\\Stockmanagement.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Spacy\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "C:\\Users\\Spacy\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net48\\1.0.3\\microsoft.netframework.referenceassemblies.net48.1.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

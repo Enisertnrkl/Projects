@@ -1,0 +1,226 @@
+/*tüm hepsi başlangıç*/
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    /*background: #ffff;*/
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 5px; /* Kaydırma çubuğu genişliği */
+  }
+/*tüm hepsi bitiş*/
+/*----------------------------------------------------------------------------*/
+/*menu başlangıç*/
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 8%;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+
+.logo{
+    font-size: 25px;
+    color: #222;
+    text-decoration: none;
+    font-weight: 600;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #222;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 20px;
+    transition: .3s;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: #1743e3;
+
+}
+
+.navbar .btnLogin-popup{
+    position: relative;
+    background: transparent;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 20px;
+    transition: .3s;
+    color: #222;
+    font-weight: 500;
+    cursor: pointer;
+    animation: zoomOut 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+}
+
+.navbar .btnLogin-popup:hover,
+.navbar .btnLogin-popup:active{
+    color: #1743e3;
+}
+.navbar .btnLogin-popup::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 100%;
+    height: 2px;
+    opacity: .85;
+}
+/*menu bitiş*/
+
+/* MODELLER BAŞLANGIÇ */
+
+.model .box-container{
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5rem;
+}
+
+.model .box-container .box{
+    padding: 3rem;
+    background-color: #1f3daa;
+    border-radius: 3rem;
+    background-color: #1f3daa;
+    min-height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.model .box-container .box img{
+    width: 100%;
+    height:210px;
+    width: 450px;
+    object-fit: cover;
+}
+
+.model .box-container .box h3{
+    position: absolute;
+    color: #f1f1f1;
+    /*top: 1835px;*/
+    font-size: 20px;
+    padding: 1rem 0;
+}
+
+.model .box-container .box h2{
+    position: absolute;
+   /* top: 1995px;*/
+    font-size: 25px;
+    padding: 1rem 0;
+    color: #fff;
+}
+
+/* MODELLER BİTİŞ */
+.btn {
+    margin-top: 150px;
+    display: inline-block;
+    padding: 10px 28px;
+    background: #474343;
+    border: 2px solid #e6e7ee;
+    box-shadow: 0 0 10px rgba(0,0,0, .1);
+    font-size: 16px;
+    color: #ffff;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: .5s;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 2s;
+}
+
+.btn:hover{
+    background: transparent;
+    color: #ffffff;
+}
+
+/*ANİMASYON*/
+@keyframes slideRight {
+    0%{
+        transform: translate(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideLeft {
+    0%{
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideTop {
+    0%{
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideBottom {
+    0%{
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes zoomOut {
+    0%{
+        transform: scale(1.1);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes car {
+    0%{
+        transform: translate(300px, -300px) scale(0) rotate(-45deg);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0,0) scale(1) rotate(-45deg);
+        opacity: 1;
+    }
+}
