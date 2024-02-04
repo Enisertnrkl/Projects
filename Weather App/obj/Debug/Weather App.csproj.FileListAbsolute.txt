@@ -1,0 +1,92 @@
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\Weather App.exe.config
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\Weather App.exe
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\Weather App.pdb
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\ColorTranslations.dll
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\Enums.NET.dll
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\Epoch.net.dll
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\jose-jwt.dll
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\System.Buffers.dll
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\System.IO.Abstractions.dll
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\System.Memory.dll
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\System.Security.Cryptography.Cng.dll
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\System.Text.Json.dll
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\System.ValueTuple.dll
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\TestableIO.System.IO.Abstractions.dll
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\TestableIO.System.IO.Abstractions.Wrappers.dll
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\Twilio.dll
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\Vonage.dll
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\Yoh.Text.Json.NamingPolicies.dll
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\Enums.NET.pdb
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\Enums.NET.xml
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\Epoch.net.pdb
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\Epoch.net.xml
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.xml
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\Microsoft.Extensions.Configuration.Json.xml
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\Microsoft.Extensions.Configuration.UserSecrets.xml
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\Microsoft.Extensions.FileProviders.Physical.xml
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.xml
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\System.Buffers.xml
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\System.IO.Abstractions.xml
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\System.Memory.xml
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\System.Security.Cryptography.Cng.xml
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\System.Text.Json.xml
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\System.ValueTuple.xml
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\TestableIO.System.IO.Abstractions.xml
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\TestableIO.System.IO.Abstractions.Wrappers.xml
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\Twilio.xml
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\Vonage.xml
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\obj\Debug\Weather App.csproj.AssemblyReference.cache
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\obj\Debug\Weather_App.Form1.resources
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\obj\Debug\Weather_App.Properties.Resources.resources
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\obj\Debug\Weather App.csproj.GenerateResource.cache
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\obj\Debug\Weather App.csproj.CoreCompileInputs.cache
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\obj\Debug\Weather App.csproj.CopyComplete
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\obj\Debug\Weather App.exe
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\obj\Debug\Weather App.pdb
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\DotNetEnv.dll
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\Sprache.dll
+C:\Users\Spacy\Documents\VS2022\Projects\Weather App\Weather App\bin\Debug\Sprache.xml
