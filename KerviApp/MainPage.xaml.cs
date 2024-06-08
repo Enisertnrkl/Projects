@@ -7,7 +7,7 @@ namespace KerviApp
 	public partial class MainPage : ContentPage
 	{
 		private bool isTimerRunning = false;
-		private string connectionString = "Server=10.147.17.3;Database=KerviDb;User Id=enis.ertnrkl;password=enis2002;TrustServerCertificate=True;";
+		private string connectionString = "";
 
 		public MainPage()
 		{

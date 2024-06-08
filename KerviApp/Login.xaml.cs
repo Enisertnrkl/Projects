@@ -4,7 +4,7 @@ namespace KerviApp;
 
 public partial class Login : ContentPage
 {
-	string connectionString = "Server=10.147.17.3;Database=KerviDb;User Id=enis.ertnrkl;password=enis2002;TrustServerCertificate=True;";
+	string connectionString = "";
 	public Login()
 	{
 		InitializeComponent();
