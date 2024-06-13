@@ -17,7 +17,7 @@ namespace TrackerServer
 		public DbSet<Location> Locations { get; set; }
 		protected override void OnConfiguring(DbContextOptionsBuilder opt)
 		{
-			opt.UseSqlServer("Server=10.147.17.3,1433;User ID=enis.ertnrkl;password=enis2002;Database=KerviDb;TrustServerCertificate=True;");
+			opt.UseSqlServer("");
 		}
 		protected override void OnModelCreating(ModelBuilder model)
 		{
