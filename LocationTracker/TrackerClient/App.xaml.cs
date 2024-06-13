@@ -1,4 +1,4 @@
-﻿namespace KerviApp
+﻿namespace TrackerClient
 {
 	public partial class App : Application
 	{

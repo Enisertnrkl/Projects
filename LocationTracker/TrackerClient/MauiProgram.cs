@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 
-namespace KerviApp
+namespace TrackerClient
 {
 	public static class MauiProgram
 	{

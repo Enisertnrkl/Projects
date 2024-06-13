@@ -1,6 +1,6 @@
 ﻿using Microsoft.Data.SqlClient;
 
-namespace KerviApp;
+namespace TrackerClient;
 
 public partial class Login : ContentPage
 {

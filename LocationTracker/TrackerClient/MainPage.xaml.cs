@@ -2,7 +2,7 @@
 using System;
 using System.Threading.Tasks;
 
-namespace KerviApp
+namespace TrackerClient
 {
 	public partial class MainPage : ContentPage
 	{
