@@ -1,42 +1,110 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
+﻿using GMap.NET;
+using GMap.NET.WindowsForms;
+using GMap.NET.WindowsForms.Markers;
+using Microsoft.EntityFrameworkCore;
+using System;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace TaxiServer
+namespace TrackerServer
 {
 	public partial class Menu : Form
 	{
-		TrackerDbContext context;
+		private TrackerDbContext _context;
+		private GMapOverlay markersOverlay;
+
+
 		public Menu()
 		{
-			context = new TrackerDbContext();
 			InitializeComponent();
+			_context = new TrackerDbContext();
+			markersOverlay = new GMapOverlay("markers");
+
+			// Initialize the timer
+			timer.Interval = 5000; // 5 seconds
+			timer.Tick += new EventHandler(timer_Tick);
+			timer.Start();
 		}
 
-		private void Form2_Load(object sender, EventArgs e)
+		private void Menu_Load(object sender, EventArgs e)
 		{
-			timer1.Interval = 5000;
-			timer1.Enabled = true;
-			timer1.Tick += timer1_Tick;
-			timer1.Start();
+			// Map settings
 			gMapControl1.MapProvider = GMap.NET.MapProviders.BingMapProvider.Instance;
 			GMap.NET.GMaps.Instance.Mode = GMap.NET.AccessMode.ServerOnly;
-			gMapControl1.Zoom = 14;
+
+			// Load initial markers and data
+			LoadMarkers();
+			LoadData();
 		}
 
-		private void timer1_Tick(object sender, EventArgs e)
+		private void LoadMarkers()
 		{
-			ListTaxis();
+			try
+			{
+				// Clear existing markers
+				markersOverlay.Markers.Clear();
+
+				// Get the latest locations from the database
+				var locations = _context.Locations.OrderByDescending(p => p.Id).ToList();
+
+				foreach (var location in locations)
+				{
+					var latitude = location.Latitude;
+					var longitude = location.Longtitude;
+
+					// Get additional information such as username
+					var user = _context.Users.FirstOrDefault(u => u.Id == location.UserId);
+					string userName = user != null ? user.UserName : "Bilinmeyen Kullanıcı";
+
+					// Create and add the marker
+					GMapMarker marker = new GMarkerGoogle(new PointLatLng(latitude, longitude), GMarkerGoogleType.red_dot);
+					marker.ToolTipText = $"Kullanıcı: {userName}";
+					marker.ToolTipMode = MarkerTooltipMode.OnMouseOver; // Tooltip only shown on mouse over
+
+					markersOverlay.Markers.Add(marker);
+				}
+
+				// Add markers overlay to the map
+				if (!gMapControl1.Overlays.Contains(markersOverlay))
+				{
+					gMapControl1.Overlays.Add(markersOverlay);
+				}
+
+				// Set map position to the last added location (if any)
+				if (locations.Any())
+				{
+					var lastLocation = locations.First();
+					gMapControl1.Position = new PointLatLng(lastLocation.Latitude, lastLocation.Longtitude);
+				}
+			}
+			catch (Exception ex)
+			{
+				MessageBox.Show($"Marker eklenirken bir hata oluştu: {ex.Message}", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
+			}
 		}
-		private void ListTaxis()
+
+		private void timer_Tick(object sender, EventArgs e)
 		{
-			var taxis = context.Taxis.OrderBy(t => t.Id)
+			// Refresh data context to get the latest data
+			_context = new TrackerDbContext();
+
+			// Reload markers and data on timer tick
+			LoadMarkers();
+			LoadData();
+		}
+
+		private void addUserToolStripMenuItem_Click(object sender, EventArgs e)
+		{
+			// Show the add user form
+			AddUser addUser = new AddUser();
+			addUser.Show();
+			this.Hide();
+		}
+
+		private void LoadData()
+		{
+			var taxis = _context.Taxis
+				.OrderBy(t => t.QueueNumber)
 				.Select(t => new
 				{
 					Kişi = t.User.UserName,

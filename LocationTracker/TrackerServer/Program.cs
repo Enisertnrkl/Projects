@@ -1,4 +1,4 @@
-namespace TaxiServer
+namespace TrackerServer
 {
 	internal static class Program
 	{
