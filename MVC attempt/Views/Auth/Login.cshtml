@@ -1,0 +1,15 @@
+﻿@model MvcTraining.Models.Entities.User
+
+<form method="post" asp-action="Login">
+    <label class="form-label">Email</label>
+    <input type="email" class="form-control" asp-for="Email">
+    <div class="form-text">
+    </div>
+    <label for="inputPassword5" class="form-label">Password</label>
+    <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" asp-for="Password">
+    <div id="passwordHelpBlock" class="form-text">
+    </div>
+    <div class="col-auto">
+        <button type="submit" class="btn btn-primary mb-3">Login</button>
+    </div>
+</form>

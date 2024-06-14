@@ -1,0 +1,29 @@
+﻿@model List<MvcTraining.Models.Entities.Student>
+@{
+    <form method="post">
+       <table class="table">
+       <thead>
+       <tr>
+       <th>Id</th>
+       <th>Name</th>
+                    <th>Phone</th>
+                    <th>Email</th>
+                    <th>Subscribed</th>
+       </tr></thead>
+       <tbody>
+       @foreach(var obj in Model)
+                {
+                    <tr>
+                    <td>@obj.Id</td>
+                    <td>@obj.Name</td>
+                    <td>@obj.Phone</td>
+                    <td>@obj.Email</td>
+                    <td>@obj.Subscribed</td>
+                    <td><button type="submit" class="btn btn-primary" asp-controller="Home" asp-action="Delete" asp-route-id="@obj.Id">Sil</button></td>
+                    </tr>
+                }
+            </tbody>
+       
+       </table>
+    </form>
+}
