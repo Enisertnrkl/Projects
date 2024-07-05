@@ -39,9 +39,10 @@ namespace L.DataAccess.Concrete.EntityFramework
                 _context.SaveChanges();
         }
 
-        public User AuthenticateUser(string username, string password)
+        public bool AuthenticateUser(string username, string password)
         {
-            return _context.Users.SingleOrDefault(u => u.UserName == username && u.Password == password);
+            var userExists = _context.Users.SingleOrDefault(u => u.UserName == username && u.Password == password);
+            return userExists != null;
         }
     }
 }

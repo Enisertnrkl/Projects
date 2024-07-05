@@ -9,6 +9,6 @@ namespace L.DataAccess.Abstract
 {
     public interface IUserDal : IEntityRepository<User>
     {
-       User AuthenticateUser(string username, string password);
+       bool AuthenticateUser(string username, string password);
     }
 }

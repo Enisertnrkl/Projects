@@ -27,7 +27,7 @@ namespace L.WebFormsUI
         {
             if (ValidateInputs())
             {
-                if (UserExists(tBUser.Text,tBPass.Text))
+                if (_userService.AuthenticateUser(tBUser.Text,tBPass.Text))
                 {
                     MessageBox.Show("Login successful.");
                     Menu menu = new Menu();
@@ -49,16 +49,6 @@ namespace L.WebFormsUI
         bool ValidateInputs()
         {
             return !string.IsNullOrEmpty(tBUser.Text) && !string.IsNullOrEmpty(tBPass.Text);
-        }
-
-        bool UserExists(string username, string password)
-        {
-            var _user = _userService.AuthenticateUser(username, password);
-            if (_user != null)
-            {
-                return true;
-            }
-            return false;
         }
     }
 }

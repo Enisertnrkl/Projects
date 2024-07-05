@@ -4112,11 +4112,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\enise\\source\\repos\\LAttempt\\L.Business\\L.Business.csproj",
+      "projectUniqueName": "C:\\Users\\enise\\Desktop\\Projects\\Enisertnrkl\\Projects\\LAttempt\\L.Business\\L.Business.csproj",
       "projectName": "L.Business",
-      "projectPath": "C:\\Users\\enise\\source\\repos\\LAttempt\\L.Business\\L.Business.csproj",
+      "projectPath": "C:\\Users\\enise\\Desktop\\Projects\\Enisertnrkl\\Projects\\LAttempt\\L.Business\\L.Business.csproj",
       "packagesPath": "C:\\Users\\enise\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\enise\\source\\repos\\LAttempt\\L.Business\\obj\\",
+      "outputPath": "C:\\Users\\enise\\Desktop\\Projects\\Enisertnrkl\\Projects\\LAttempt\\L.Business\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4138,8 +4138,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\enise\\source\\repos\\LAttempt\\L.DataAccess\\L.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\enise\\source\\repos\\LAttempt\\L.DataAccess\\L.DataAccess.csproj"
+            "C:\\Users\\enise\\Desktop\\Projects\\Enisertnrkl\\Projects\\LAttempt\\L.DataAccess\\L.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\enise\\Desktop\\Projects\\Enisertnrkl\\Projects\\LAttempt\\L.DataAccess\\L.DataAccess.csproj"
             }
           }
         }

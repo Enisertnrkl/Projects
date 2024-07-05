@@ -34,7 +34,7 @@ namespace L.Business.Concrete
             return _userDal.GetSingle(user);
         }
 
-        public User AuthenticateUser(string username, string password)
+        public bool AuthenticateUser(string username, string password)
         {
             return _userDal.AuthenticateUser(username, password);
         }

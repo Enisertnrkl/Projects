@@ -20,7 +20,7 @@ namespace L.DataAccess.Concrete.NHibernate
             throw new NotImplementedException();
         }
 
-        public User AuthenticateUser(string username, string password)
+        public bool AuthenticateUser(string username, string password)
         {
             throw new NotImplementedException();
         }

@@ -12,6 +12,6 @@ namespace L.Business.Abstract
         List<User> GetAll();
         void Add(User user);
         User GetSingle(User user);
-        User AuthenticateUser(string username, string password);
+        bool AuthenticateUser(string username, string password);
     }
 }
