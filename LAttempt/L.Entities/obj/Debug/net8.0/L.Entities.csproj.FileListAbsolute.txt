@@ -1,0 +1,14 @@
+C:\Users\enise\source\repos\LAttempt\L.Entities\bin\Debug\net8.0\L.Entities.deps.json
+C:\Users\enise\source\repos\LAttempt\L.Entities\bin\Debug\net8.0\L.Entities.runtimeconfig.json
+C:\Users\enise\source\repos\LAttempt\L.Entities\bin\Debug\net8.0\L.Entities.dll
+C:\Users\enise\source\repos\LAttempt\L.Entities\bin\Debug\net8.0\L.Entities.pdb
+C:\Users\enise\source\repos\LAttempt\L.Entities\obj\Debug\net8.0\L.Entities.csproj.AssemblyReference.cache
+C:\Users\enise\source\repos\LAttempt\L.Entities\obj\Debug\net8.0\L.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\enise\source\repos\LAttempt\L.Entities\obj\Debug\net8.0\L.Entities.AssemblyInfoInputs.cache
+C:\Users\enise\source\repos\LAttempt\L.Entities\obj\Debug\net8.0\L.Entities.AssemblyInfo.cs
+C:\Users\enise\source\repos\LAttempt\L.Entities\obj\Debug\net8.0\L.Entities.csproj.CoreCompileInputs.cache
+C:\Users\enise\source\repos\LAttempt\L.Entities\obj\Debug\net8.0\L.Entities.dll
+C:\Users\enise\source\repos\LAttempt\L.Entities\obj\Debug\net8.0\refint\L.Entities.dll
+C:\Users\enise\source\repos\LAttempt\L.Entities\obj\Debug\net8.0\L.Entities.pdb
+C:\Users\enise\source\repos\LAttempt\L.Entities\obj\Debug\net8.0\L.Entities.genruntimeconfig.cache
+C:\Users\enise\source\repos\LAttempt\L.Entities\obj\Debug\net8.0\ref\L.Entities.dll
